@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    color: #333;
+}
+
+header {
+    background-color: #555;
+    color: #fcb69f;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fcb69f;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img#restaurant-img {
+    width: 100%;
+    height: auto;
+}
+
+.image-container img {
+    max-width: 300px;
+    height: auto;
+}
+
+.description {
+    margin: 20px 0;
+}
+
+.section-title {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+.add-to-cart {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+.dish {
+    margin-bottom: 20px;
+}
+
+.dish img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.dish-title {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.dish-description {
+    font-size: 16px;
+}
+
+.dish-price {
+    font-size: 16px;
+    color: #555;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Developer Job Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mahadev Catering and Restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="#"
+                        onclick="showDish('sevpuri.jpg', 'Sev Puri', 'A delicious chat item with a mix of flavors.', 5)">Chat</a>
+                </li>
+                <li><a href="#"
+                        onclick="showDish('punjabi thali.jpg', 'Punjabi Thali', 'Hearty and satisfying main course dishes.', 12)">Main
+                        Course</a></li>
+                <li><a href="#"
+                        onclick="showDish('samosa.jpg', 'Samosa', 'Tasty and crunchy snacks to munch on.', 8)">Snacks</a>
+                </li>
+                <li><a href="#"
+                        onclick="showDish('phirni.jpg', 'Phirni', 'Sweet and delightful desserts.', 6)">Desserts</a>
+                </li>
+                <li><a href="#"
+                        onclick="showDish('jaljeera.jpg', 'Jaljeera', 'Refreshing beverages to quench your thirst.', 3)">Thandai</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="image-container">
+            <img id="dish-image" src="restaurant.jpg" alt="Restaurant Image">
+        </div>
+        <div class="description">
+            <h2 id="dish-title" class="section-title">Welcome to Mahadev Catering and Restaurant</h2>
+            <p id="dish-description">
+                Experience the best of culinary delights with a wide range of dishes from our menu.
+                Our chefs use the freshest ingredients to prepare delicious meals that will satisfy your taste buds.
+                Whether you're in the mood for a hearty main course, a light snack, or a sweet dessert, we have
+                something for everyone.
+                Don't forget to try our refreshing drinks!
+            </p>
+            <p id="dish-price"></p>
+            <button id="add-to-cart" class="add-to-cart" style="display: none;">Add to Cart</button>
+        </div>
+    </main>
+
+    <script>
+        function showDish(image, title, description, price) {
+            document.getElementById('dish-image').src = image;
+            document.getElementById('dish-title').textContent = title;
+            document.getElementById('dish-description').textContent = description;
+            document.getElementById('dish-price').textContent = 'Price: $' + price;
+            document.getElementById('add-to-cart').style.display = 'inline-block';
+        }
+    </script>
+</body>
+
+
+</html>
