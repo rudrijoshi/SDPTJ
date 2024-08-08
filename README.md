@@ -8,6 +8,10 @@ This project is a simple and elegant website for Mahadev Catering and Restaurant
 - **Dish Categories**: Users can browse through different categories like Chat, Main Course, Snacks, Desserts, and Drinks.
 - **Dynamic Content**: The website dynamically updates the content based on user interactions.
 
+## Usage
+Screenshot of SDPTJ
+![Screenshot of SDPTJ](screenshot.png)
+
 ## Technologies Used
 
 - **HTML5**: For the structure of the website.
